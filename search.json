@@ -1,1 +1,1 @@
-[{"title":"前言","url":"/2021/12/15/我的第一篇博客文章/","content":"## 欢迎来到我的博客\n### 加油吧\n\n","tags":["文章"],"categories":["我的文章"]}]
+[{"title":"前言","url":"/2021/12/15/我的第一篇博客文章/","content":"\n```java\nvoid process(int n, String start, String end, String other) {\n   if (n == 1) {\n       System.out.println(\"Move 1 from \" + start + \" to \" + end);\n   } else {\n       process(n - 1, start, other, end);\n       System.out.println(\"Move \" + n + \" from \" + start + \" to \" + end);\n       process(n - 1, other, end, start);\n   }\n}\n```\n","tags":["beautiful"],"categories":["我的文章"]}]
